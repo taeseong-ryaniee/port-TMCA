@@ -1,0 +1,64 @@
+@import url(../css/font.css);
+@import url(../css/reset.css);
+@import url(../css/default.css);
+
+.body_wrap {
+    display: grid;
+    grid-template-columns: 1fr 4.3fr;
+}
+
+aside {
+    width: 30rem;
+    height: 100vh;
+    margin: 5rem 0 0 1rem;
+    display: grid;
+    grid-template-rows: 41rem, 83rem;
+}
+
+.gnb {
+    font-size: 4.5rem;
+    font-weight: 700;
+}
+
+.exhibition .Exhibit_info img,
+.education .edu_info .edu_vis img{
+    width: 100%;
+    object-fit: cover;}
+
+.exhibition .Exhibit_tit,
+.education  .edu_tit{
+    margin: 4.5rem 4.5rem 0 0;
+    text-align: right;
+    font-weight: 700;
+    font-size: 4rem}
+
+.exhibition {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.exhibition .Exhibit_info ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-size: 2rem;
+    padding: 2rem}
+
+.exhibition .Exhibit_info .tit .title_ko{
+    font-size: 2.6rem;}
+
+
+.education {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.education .edu_tit {
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+}
+
+.education .edu_info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0;	}
