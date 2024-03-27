@@ -4,61 +4,170 @@
 
 .body_wrap {
     display: grid;
-    grid-template-columns: 1fr 4.3fr;
-}
+    width: 100%;
+    grid-template-columns: 1fr 3fr;
+    border-left: 0.1rem solid #2b2b2b;
+    overflow-x: auto;}
+
+.content_wrap{
+    border-left: 0.1rem solid #2b2b2b;
+    border-right: 0.1rem solid #2b2b2b;}
 
 aside {
-    width: 30rem;
-    height: 100vh;
-    margin: 5rem 0 0 1rem;
+    position: fixed;
     display: grid;
-    grid-template-rows: 41rem, 83rem;
+    height: 100vh;
+    grid-template-rows:auto 50px;
 }
 
-.gnb {
-    font-size: 4.5rem;
-    font-weight: 700;
+aside .gnb{
+    margin: 3rem 0 0 5.5rem;}
+
+aside .gnb ul a {
+    font-size: 4rem;
+    font-weight: 500;
+    line-height: 7rem;
 }
 
-.exhibition .Exhibit_info img,
-.education .edu_info .edu_vis img{
-    width: 100%;
-    object-fit: cover;}
+.exhibition .Exhibit_info a img,
+.education .edu_info a img {
+    display: block;
+    max-width: 100%;
+    object-fit: scale-down;
+}
 
-.exhibition .Exhibit_tit,
-.education  .edu_tit{
-    margin: 4.5rem 4.5rem 0 0;
+.exhibition .Exhibit_tit {
+    margin: 3rem 4.5rem 0 0;
     text-align: right;
-    font-weight: 700;
-    font-size: 4rem}
+    font-weight: 500;
+    font-size: 4rem;
+}
 
 .exhibition {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    overflow-x: auto;
 }
 
-.exhibition .Exhibit_info ul{
+.exhibition .Exhibit_info{
+    border-left: 0.1rem solid #2b2b2b;}
+
+.exhibition .Exhibit_info ul {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     font-size: 2rem;
-    padding: 2rem}
+    padding: 2rem
+}
 
-.exhibition .Exhibit_info .tit .title_ko{
-    font-size: 2.6rem;}
+.exhibition .Exhibit_info .tit .title_ko {
+    font-size: 2.6rem;
+}
 
 
 .education {
     display: grid;
     grid-template-columns: 1fr 2fr;
+    border-top: 0.1rem solid #2b2b2b;
+    overflow-x: auto;
+
 }
 
 .education .edu_tit {
     display: grid;
-    grid-template-rows: 2fr 1fr;
+    grid-template-rows: 5fr 1fr;
+    margin: 2rem 4.5rem 0 0;
+    text-align: right;
+    font-weight: 500;
+    font-size: 4rem;
+}
+
+
+.education .edu_tit a {
+    font-size: 2.2rem;
+    font-weight: 400;
+    width: 100%;
+    text-decoration: underline;
 }
 
 .education .edu_info {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 0;	}
+    overflow-x: auto;
+    width: 100%;
+    border-left: 0.1rem solid #2b2b2b;;}
+
+.education .edu_info a img{
+    font-size: 0;
+    line-height: 0;
+    max-width: 100%;
+
+}
+
+.education .edu_info .edu_subtit {
+    display: block;
+    font-size: 2.2rem;
+    line-height: 5rem;
+    padding-left: 1rem;
+    color: #fbfbfb;
+    background-color: #2b2b2b;
+}
+
+.tottv {
+    display: grid;
+    grid-template-columns: 1.75fr 1.25fr;
+    height: max-content;
+    border-top: 0.1rem solid #2b2b2b;
+}
+.tottv .tottv_tit img{
+    margin: 4rem 0 0 4rem}
+
+.tottv .tottv_tit a {
+    display: block;
+    margin: 30rem 4rem 3rem 0;
+    float: right;
+    font-size: 2.2rem;
+    font-weight: 400;
+    text-decoration: underline;}
+
+.tottv .tottv_video{
+    border-left: 0.1rem solid #2b2b2b;}
+
+.tottv .tottv_video iframe{
+    display: block;
+    object-fit: cover;}
+
+.tottv .tottv_video em{
+    font-size: 3rem;
+    font-weight: 700;
+    line-height:6rem;
+    margin-left: 2rem;}
+
+.press{
+    display: grid;
+    grid-template-columns: 1fr 7fr 2fr;
+}
+
+.press .press_info{
+    grid-column: 2;
+    background-color: #2b2b2b;
+    padding-bottom: 2rem;
+}
+
+.press .press_info .press_logo{
+    margin: 3rem 0 6.5rem 2rem ;}
+
+.press .press_info .view{
+    display: block;
+    font-size: 2.2rem;
+    font-weight: 400;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: underline;
+    color:#fbfbfb;
+    text-align: right;}
+
+.press .press_info .book_pic{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 1rem;}

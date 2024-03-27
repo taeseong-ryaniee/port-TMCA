@@ -1,3 +1,9 @@
+/* 태그초기화 - 태그의 기본스타일 제거 */
+* {
+    padding: 0; /* 모든 태그의 여백삭제 */
+    margin: 0;
+    box-sizing: border-box;}
+    /* padding하고 border는 넓이를 늘리는 요소인데 넓이를 늘리지 않도록 하는 속성 */
 
 *:where(:not(html, iframe, canvas, img, svg, video, audio):not(svg *, symbol *)) {
     all: unset;
@@ -30,8 +36,7 @@ ol, ul, menu, summary {
 
 /* For images to not be able to exceed their container */
 img {
-    max-inline-size: 100%;
-    max-block-size: 100%;
+
 }
 
 /* removes spacing between cells in tables */
