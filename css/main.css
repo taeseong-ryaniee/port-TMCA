@@ -307,7 +307,7 @@ text-align: right;
     font-size: 2.4rem;
     font-weight: 600;
     float: left;
-    margin: 2rem 0 0 2rem;
+
 }
 
 .location .location_info .address {
@@ -324,8 +324,8 @@ text-align: right;
 .location .location_info .address .address_info_web {
     display: grid;
     font-size: 2rem;
-    grid-template-rows: 4fr 1fr 1fr;
-    margin-right: 2rem;
+    grid-template-rows: 5fr 1fr 1fr;
+    margin: 3rem;
     text-align: right;
 }
 
@@ -338,12 +338,15 @@ text-align: right;
 
 .location .location_info img {
     width: 100%;
+height: 100%;
     object-fit: cover;
 }
 
 .location .location_info .transpotation .trans_info {
     display: grid;
-    grid-template-rows: 1fr 3fr;
+    grid-template-rows: 0.5fr 1.75fr;
+    align-items: start;
+    padding: 2rem;
     align-items: end;
     text-align: right;
     border-right:  0.1rem solid #adadad;
@@ -359,7 +362,7 @@ text-align: right;
 }
 
 .location .location_info .transpotation .trans_info em {
-    font-size: 2.4rem;
+    font-size: 2.2rem;
     font-weight: 600;
 }
 
@@ -394,7 +397,7 @@ text-align: right;
 
 .location .location_info .transpotation .subway .line_04 strong,
 .location .location_info .transpotation .subway .line_ui strong {
-    margin-bottom: 3.5rem;
+    margin-bottom: 3rem;
 }
 
 .location .location_info .transpotation .subway .line_03 strong {
