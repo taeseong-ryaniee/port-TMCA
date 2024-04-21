@@ -15,6 +15,14 @@ html {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 1920px) {
+#wrap {
+    width: 1600px;
+    margin: 0 auto;
+}
+}
+
+
 @media screen and (max-width: 1440px) {
 
     body,
@@ -56,8 +64,8 @@ html {
     #wrap {
         margin: auto 22px;
         width: auto;
-        border-left: 0.1rem solid #2b2b2b;
-        border-right: 0.1rem solid #2b2b2b;
+        border-left:  0.1rem solid #adadad;
+        border-right:  0.1rem solid #adadad;
     }
 }
 
