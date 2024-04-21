@@ -48,7 +48,7 @@ aside .gnb {
 
 aside .gnb ul li a {
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 7rem;
 }
 
@@ -78,7 +78,7 @@ aside .logo a {
 .exhibition .Exhibit_tit {
     margin: 3rem 4.5rem 0 0;
     text-align: right;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 4rem;
 }
 
@@ -118,7 +118,7 @@ aside .logo a {
     grid-template-rows: 5fr 1fr;
     margin: 2rem 4.5rem 0 0;
     text-align: right;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 4rem;
 }
 
@@ -191,7 +191,7 @@ aside .logo a {
 
 .tottv .tottv_video em {
     font-size: 3rem;
-    font-weight: 500;
+    font-weight: 600;
     line-height: 6rem;
     margin-left: 2rem;
 }
@@ -280,7 +280,7 @@ aside .logo a {
 
 .location h2 {
     font-size: 4rem;
-    font-weight: 500;
+    font-weight: 600;
     padding: 5rem 0 1rem 5rem;
     background-color: #2b2b2b;
     color: #fbfbfb;
@@ -302,7 +302,7 @@ aside .logo a {
 .location .location_info .address .address_info_web em,
 .location .location_info .transpotation .address_info_mobile em {
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: 600;
     float: left;
     margin: 2rem 0 0 2rem;
 }
@@ -357,7 +357,7 @@ aside .logo a {
 
 .location .location_info .transpotation .trans_info em {
     font-size: 2.4rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .location .location_info .transpotation .subway {
@@ -379,7 +379,7 @@ aside .logo a {
 
 .location .location_info .transpotation .title {
     text-align: left;
-    font-weight: 500;
+    font-weight: 600;
     margin-left: 2rem;
     color: #2b2b2b;
 }
